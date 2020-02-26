@@ -14,6 +14,9 @@
 		F0A1F7392406547B002A9CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A1F7372406547B002A9CCC /* LaunchScreen.storyboard */; };
 		F0A1F7432406556B002A9CCC /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A1F7422406556B002A9CCC /* VKSdkFramework.framework */; };
 		F0A1F7442406556B002A9CCC /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0A1F7422406556B002A9CCC /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0A1F74724065596002A9CCC /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A1F74624065596002A9CCC /* AuthViewController.swift */; };
+		F0A1F749240655A0002A9CCC /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A1F748240655A0002A9CCC /* AuthViewController.storyboard */; };
+		F0A1F74B2406563C002A9CCC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A1F74A2406563C002A9CCC /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +42,9 @@
 		F0A1F7382406547B002A9CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0A1F73A2406547B002A9CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0A1F7422406556B002A9CCC /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		F0A1F74624065596002A9CCC /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		F0A1F748240655A0002A9CCC /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		F0A1F74A2406563C002A9CCC /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,9 @@
 				F0A1F72C2406547A002A9CCC /* AppDelegate.swift */,
 				F0A1F72E2406547A002A9CCC /* SceneDelegate.swift */,
 				F0A1F7302406547A002A9CCC /* ViewController.swift */,
+				F0A1F74A2406563C002A9CCC /* AuthService.swift */,
+				F0A1F74624065596002A9CCC /* AuthViewController.swift */,
+				F0A1F748240655A0002A9CCC /* AuthViewController.storyboard */,
 				F0A1F7352406547B002A9CCC /* Assets.xcassets */,
 				F0A1F7372406547B002A9CCC /* LaunchScreen.storyboard */,
 				F0A1F73A2406547B002A9CCC /* Info.plist */,
@@ -152,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0A1F7392406547B002A9CCC /* LaunchScreen.storyboard in Resources */,
+				F0A1F749240655A0002A9CCC /* AuthViewController.storyboard in Resources */,
 				F0A1F7362406547B002A9CCC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +194,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A1F74724065596002A9CCC /* AuthViewController.swift in Sources */,
 				F0A1F7312406547A002A9CCC /* ViewController.swift in Sources */,
+				F0A1F74B2406563C002A9CCC /* AuthService.swift in Sources */,
 				F0A1F72D2406547A002A9CCC /* AppDelegate.swift in Sources */,
 				F0A1F72F2406547A002A9CCC /* SceneDelegate.swift in Sources */,
 			);
